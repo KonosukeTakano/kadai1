@@ -72,3 +72,19 @@ footer{
     height: 50px;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .main-visual-item{
+        background-color: #eeeeee;
+        width: 100%;
+        /* height: 300px; */
+        position: relative; /* 子要素の起点を指定 */
+    }
+    .main-visual{
+        display: block;
+    }
+    .main-visual-item-center {
+        margin-right: 0;
+        margin-left: 0;
+    }
+  }
