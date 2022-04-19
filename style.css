@@ -37,7 +37,6 @@ header{
     background-image: url(img/flow01.png);
     background-position: bottom;
     background-size: cover;
-    margin: 10px 10px 0 10px;
 }
 .image2{
     width: 280px;
@@ -45,7 +44,6 @@ header{
     background-image: url(img/flow02.png);
     background-position: bottom;
     background-size: cover;
-    margin: 10px 10px 0 10px;
 }
 .image3{
     width: 280px;
@@ -53,7 +51,6 @@ header{
     background-image: url(img/flow03.png);
     background-position: bottom;
     background-size: cover;
-    margin: 10px 10px 0 10px;
 }
 h3{
     margin: 15px 0 5px 0;
@@ -78,55 +75,39 @@ footer{
     footer {
         min-width: 768px;
     }
-
-    #main-visual-item{
-        width: 768px;
-        margin: 0 90%;
-    }
     .main-visual-item{
-        background-color: #eeeeee;
-        width: 100%;
-        /* height: 300px; */
-        position: relative; /* 子要素の起点を指定 */
+        width: 58%;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .main-visual{
         display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
     .main-visual-item-center {
-        margin-right: 0;
-        margin-left: 0;
-        margin: 20px 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .image1{
-        width: 90%;
-        height: 150px;
-        background-image: url(img/flow01.png);
-        background-position: bottom;
-        background-size: cover;
-        margin: 0;
+        width: 100%;
     }
     .image2{
-        width: 90%;
-        height: 150px;
-        background-image: url(img/flow02.png);
-        background-position: bottom;
-        background-size: cover;
-        margin: 0;
+        width: 100%; 
     }
     .image3{
-        width: 90%;
-        height: 150px;
-        background-image: url(img/flow03.png);
-        background-position: bottom;
-        background-size: cover;
-        margin: 0;
+        width: 100%;
     }
     h3 {
         margin: 15px 0 15px 0;
         padding: 0;
     }
     p {
-        font-size: 14px;
+        font-size: 17px;
         padding: 0;
+        line-height: 1.4rem;
     }
   }
