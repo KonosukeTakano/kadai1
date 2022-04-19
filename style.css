@@ -74,6 +74,15 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+    header,
+    footer {
+        min-width: 768px;
+    }
+
+    #main-visual-item{
+        width: 768px;
+        margin: 0 90%;
+    }
     .main-visual-item{
         background-color: #eeeeee;
         width: 100%;
@@ -86,5 +95,38 @@ footer{
     .main-visual-item-center {
         margin-right: 0;
         margin-left: 0;
+        margin: 20px 0;
+    }
+    .image1{
+        width: 90%;
+        height: 150px;
+        background-image: url(img/flow01.png);
+        background-position: bottom;
+        background-size: cover;
+        margin: 0;
+    }
+    .image2{
+        width: 90%;
+        height: 150px;
+        background-image: url(img/flow02.png);
+        background-position: bottom;
+        background-size: cover;
+        margin: 0;
+    }
+    .image3{
+        width: 90%;
+        height: 150px;
+        background-image: url(img/flow03.png);
+        background-position: bottom;
+        background-size: cover;
+        margin: 0;
+    }
+    h3 {
+        margin: 15px 0 15px 0;
+        padding: 0;
+    }
+    p {
+        font-size: 14px;
+        padding: 0;
     }
   }
