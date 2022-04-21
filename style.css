@@ -76,7 +76,7 @@ footer{
         min-width: 768px;
     }
     .main-visual-item{
-        width: 58%;
+        width: 90%;
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
@@ -84,6 +84,7 @@ footer{
         margin-left: 5%;
     }
     .main-visual{
+        width: 100%;
         display: block;
         margin-right: auto;
         margin-left: auto;
@@ -93,13 +94,13 @@ footer{
         margin-bottom: 20px;
     }
     .image1{
-        width: 100%;
+        width: auto;
     }
     .image2{
-        width: 100%; 
+        width: auto;
     }
     .image3{
-        width: 100%;
+        width: auto;
     }
     h3 {
         margin: 15px 0 15px 0;
