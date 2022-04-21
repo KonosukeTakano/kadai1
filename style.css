@@ -103,7 +103,7 @@ footer{
         padding: 0;
     }
     p {
-        
+        font-family: 'Noto Sans JP', sans-serif;
         padding: 0;
         line-height: 1.4rem;
     }
