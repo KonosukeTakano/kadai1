@@ -25,6 +25,7 @@ header{
     position: relative; /* 子要素の起点を指定 */
 }
 .step-num{
+    font-family: 'Noto Sans JP', sans-serif;
     position: absolute; /* 親要素を起点に配置 */
     top: 0;
     left: 0;
