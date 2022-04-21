@@ -74,6 +74,7 @@ footer{
     
     .main-visual-item{
         width: 90%;
+        height: auto;
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
