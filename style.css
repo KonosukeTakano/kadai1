@@ -71,10 +71,7 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    header,
-    footer {
-        min-width: 768px;
-    }
+    
     .main-visual-item{
         width: 90%;
         padding-top: 10px;
